@@ -1,0 +1,118 @@
+body{
+font-family: 'Uchen', serif;
+}
+.name-of-company{
+    display: flex;
+}
+.title-of-company{
+    text-align: center;
+    color: darkturquoise;
+}
+.logo-frame{
+    background-image: url(images/shapes/Logo\ Frame.jpg);
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: block;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    font-weight: 700;
+    list-style: none;
+    padding: 10px 50px;
+}
+
+.foodhouse-details{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.foodhouse-details img{
+    width: 60%;
+}
+.orange-color-text{
+    color:orange;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(green,yellow);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+.about-me{
+    display: flex;
+    padding-right: 50px; 
+}
+.about-me img{
+    padding-left: 50px;
+    width: 50%;
+}
+
+.banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.blue-color-text{
+    color: blue;
+}
+
+#My-recipies-header{
+    text-align: center;
+}
+
+#My-recipies-list{
+    text-align: center;
+    margin: auto;
+    width: 45%;
+}
+.recipies-list{
+    display: flex;
+    margin-bottom: 80px;
+}
+.one-third-width{
+    margin: 40px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    border-radius: 5px;
+    width: 25%;
+    padding:2%;
+    
+}
+.one-third-width img{
+    border-radius: 10%;
+    width: 100%;
+}
+.box-shadow{
+    box-shadow: 4px 4px 4px 4px aqua;
+    border-radius: 10%;  
+}
+#justify-food-details{
+    text-align: justify;
+}
+
+.Find-us{
+    margin: 50px;
+    border-radius: 30px;
+    background-image: url(images/shapes/About\ us\ border.jpg);
+    padding: 15px;
+    background-repeat:no-repeat;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
